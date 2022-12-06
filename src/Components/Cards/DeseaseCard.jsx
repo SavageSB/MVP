@@ -8,7 +8,7 @@ const DiseaseCard = (props) => {
             <h3>{props.disease}</h3>
         </header>
         <div className='w3-container'>
-          <p className="w3-center"><b>Desciption</b>: {props.description}</p>
+          <p className="w3-center w3-red"><b>Desciption</b>: {props.description}</p>
         </div>
     </div>
   )
