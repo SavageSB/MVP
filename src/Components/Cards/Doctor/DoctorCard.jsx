@@ -2,11 +2,12 @@ import "w3-css/w3.css";
 import { FcAbout } from "react-icons/fc";
 import { FcLibrary } from "react-icons/fc";
 import { FcCheckmark } from "react-icons/fc";
+import './DoctorCard.css'
 const DoctorCard = (props) => {
   return (
     <div className="w3-card-4 w3-third">
-      <header className="w3-container w3-teal">
-        <h2>{props.name}</h2>
+      <header className="w3-container w3-teal header">
+        <h2 className="w3-xlarge">{props.name}</h2>
       </header>
 
       <div className="w3-container">
