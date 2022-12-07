@@ -4,6 +4,7 @@ import Main from './Components/Main/Main';
 import Navbar from './Components/Navbar/Navbar';
 import Search from './Components/Search-field/Search';
 import Cards from './Components/Cards/Cards';
+import Footer from './Components/Footer/Footer';
 function App() {
   const slides = [
     { url: "http://localhost:3000/img2.png", title: "virus" },
@@ -23,6 +24,11 @@ function App() {
       <br></br>
       <br></br>
       <Cards></Cards>
+      <br></br>
+      <br></br>
+      <br></br>
+      <Footer></Footer>
+      
     </div>
   );
 
