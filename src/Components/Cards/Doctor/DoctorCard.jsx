@@ -10,14 +10,13 @@ const DoctorCard = (props) => {
         <h2 className="w3-xlarge">{props.name}</h2>
       </header>
 
-      <div className="w3-container">
+      <div className="w3-container w3-padding-16">
         <p className="w3-center w3-large">
           <b>
             <FcAbout className="w3-large" /> experience:  
           </b>
           {props.experience}
         </p>
-        <br></br>
         <p className="w3-center w3-large">
           <b>
             <FcLibrary className="w3-large" />
@@ -25,7 +24,6 @@ const DoctorCard = (props) => {
           </b>
           {props.workPlace}
         </p>
-        <br></br>
         <p className="w3-center w3-large">
           <b>
             <FcCheckmark className="w3-large" /> rate:{" "}

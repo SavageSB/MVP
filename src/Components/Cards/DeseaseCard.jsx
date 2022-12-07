@@ -13,21 +13,19 @@ const DiseaseCard = (props) => {
           <FaVirus className="w3-xlarge" /> {props.disease}
         </h2>
       </header>
-      <div className="w3-container">
+      <div className="w3-container w3-padding-16">
         <p className="w3-center w3-large">
           <b>
             <TbFileDescription className="w3-large" /> Desciption:
           </b>
           {props.description}
         </p>
-        <br></br>
         <p className="w3-center w3-large">
           <b>
             <CgDanger className="w3-large" /> Fear rate:
           </b>
           {props.rate}
         </p>
-        <br></br>
         <p className="w3-center w3-large">
           <b>
             <CgPill className="w3-large" /> remedies:

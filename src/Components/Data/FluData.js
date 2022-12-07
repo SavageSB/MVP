@@ -4,21 +4,21 @@ const fluData = [
       name: "flu",
       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing',
       dangerRate: '2.5',
-      remedies: 'tea with lemon, paracetamol'
+      remedies: 'ჩაი ლიმნით, პარაცეტამოლი'
     },
     {
       id: 1,
       name: "malaria",
       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing',
       dangerRate: '8.9',
-      remedies: 'pill-two, prayer :D'
+      remedies: 'შპს. "Tsianidi", ლოცვა :D'
     },
     {
       id: 2,
       name: "cancer",
       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing',
       dangerRate: '7.2',
-      remedies: 'pill-one, laser-therapy'
+      remedies: 'წამალი-1, ლაზერული თერაპია'
 
     },
 ];

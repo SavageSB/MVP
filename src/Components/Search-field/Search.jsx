@@ -13,7 +13,7 @@ const Search = () => {
       <button type='submit' className='w3-button w3-hover-aqua w3-gray w3-center' onClick={onShow}>Add symptom</button>
       <div className='w3-center'>
         {show.map(x => (
-          <CostumInput key={x}></CostumInput>
+          <CostumInput key={x} placeholder={'enter a symptom'}></CostumInput>
         ))}
       </div>
     </div>
